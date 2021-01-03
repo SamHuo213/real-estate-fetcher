@@ -1,0 +1,17 @@
+{
+  "name": "real-estate-fetcher",
+  "version": "1.0.0",
+  "description": "real-estate-fetcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
