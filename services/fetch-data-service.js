@@ -72,7 +72,7 @@ class FetchDataService {
 	}
 
 	getArgs(startDate, endDate, regions, soldEnum) {
-		let args = [];
+		let args = ['(propertyClassCode = 0 OR propertyClassCode = 1)'];
 		if (soldEnum === 'sold' || soldEnum === 'expired') {
 			args = args.concat([
 				`entryDate >= ${startDate}`,
