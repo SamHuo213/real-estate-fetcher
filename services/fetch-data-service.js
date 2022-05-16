@@ -63,12 +63,12 @@ class FetchDataService {
 
 	getSoldFlag(soldEnum) {
 		if (soldEnum === 'sold') {
-			return '1';
+			return 'sold';
 		} else if (soldEnum === 'expired') {
 			return 'expired';
 		}
 
-		return '';
+		return 'active';
 	}
 
 	getArgs(startDate, endDate, regions, soldEnum) {
